@@ -24,18 +24,19 @@
                 <li><a href="Informacion.php">Informacion</a></li>
                 <li><a href="compra.php"></a></li>
                 <li><a href="acceder.php">Entrar</a></li>
-                <li><a href="registro.php">Registrarse</a></li>
+                <li><a href="registrar.php">Registrarse</a></li>
             </ul>
         </div>
     </header>
-    <form class="formulario_ing">
+    <form class="formulario_ing" action="/php/registro.php" method="POST">
             <h2 class="info_h2">COMPRAR TICKET DE EVENTO</h2>
-            <input class="formula" type="text" required placeholder="Cedula">
-            <input class="formula" type="text" required placeholder="Nombres">
-            <input class="formula" type="text" required placeholder="Apellidos">
-            <input class="formula" type="email" required placeholder="Correo electronico">
-            <input class="formula" type="text" required placeholder="Telefono">
-            <input class="formula" type="text" required placeholder="Numero de tarjeta">
+            <input class="formula" type="text" required placeholder="Cedula" name="cedula">
+            <input class="formula" type="text" required placeholder="Nombres" name="nombre">
+            <input class="formula" type="text" required placeholder="Apellidos" name="apellido">
+            <input class="formula" type="email" required placeholder="Correo electronico" name="correo">
+            <input class="formula" type="text" required placeholder="Telefono" name="telefono">
+            <input class="formula" type="text" required placeholder="Numero de tarjeta" name="tarjeta">
+            <input class="formula" type="number" require placeholder="Cantidad de tickets" name="cant">
             <div>
                 <select name="eventos" id="eventos" class="selecion">
                     <option value="">Volvo</option>

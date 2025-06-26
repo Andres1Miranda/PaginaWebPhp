@@ -24,14 +24,14 @@
                 <li><a href="Informacion.php">Informacion</a></li>
                 <li><a href="compra.php">Comprar</a></li>
                 <li><a href="acceder.php">Entrar</a></li>
-                <li><a href="registro.php"></a></li>
+                <li><a href="registrar.php"></a></li>
             </ul>
         </div>
     </header>
-    <form class="formulario_ing1">
+    <form class="formulario_ing1" action="../PaginaWebPhP/php/registro.php" method="POST">
         <h2 class="info_h2">Registro</h2>
-        <input type="text" class="formula" required placeholder="Usuario" name="usuario">
-        <input type="password" class="formula" required placeholder="Contraseña" name="pass">
+        <input type="text" class="formula" required placeholder="Usuario" name="usuario2">
+        <input type="password" class="formula" required placeholder="Contraseña" name="pass2">
         <input type="submit" value="Registrar" class="enviar">
     </form>
     <footer style="text-align: center; padding: 20px; background-color: #222; color: white; margin-top: auto;">

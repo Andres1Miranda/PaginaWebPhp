@@ -24,7 +24,7 @@
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="Informacion.php">Informacion</a></li>
                 <li><a href="acceder.php">Entrar</a></li>
-                <li><a href="registro.php">Registrarse</a></li>
+                <li><a href="registrar.php">Registrarse</a></li>
             </ul>
         </div>
     </header>
