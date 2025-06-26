@@ -18,12 +18,12 @@
     </style>
     <header class="cabezera">
         <div class="cab_nav">
-            <img src="src/LOGO.png" alt="Logo" class="logo_img">
+            <a href="index.php"><img src="src/LOGO.png" alt="Logo" class="logo_img"></a>
             <ul style="display: flex; justify-content: flex-end; padding: 0px 1250px;">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Informacion.html">Informacion</a></li>
-                <li><a href="acceder.html">Entrar</a></li>
-                <li><a href="registro.html">Registrarse</a></li>
+                <li><a href="Informacion.php">Informacion</a></li>
+                <li><a href="compra.php">Comprar</a></li>
+                <li><a href="acceder.php">Entrar</a></li>
+                <li><a href="registro.php">Registrarse</a></li>
             </ul>
         </div>
     </header>
@@ -38,7 +38,8 @@
         <img src="src/Shakira.webp" class="imgzoom">
     </div>
     <footer style="text-align: center; padding: 20px; background-color: #222; color: white; margin-top: 900px;">
-        © 2025 CO-MUSICA. Todos los derechos reservados.
+        © 2025 CO-MUSICA. Todos los derechos reservados.<br>
+        Pagina hecha por A.Miranda - J.Pallo - S.Pullutagsi
     </footer>
 </body>
 </html>
