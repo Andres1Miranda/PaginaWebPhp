@@ -24,7 +24,7 @@ if($r > 0){
     ';
     exit;
 }
-$insertar = mysqli_query($conexion,"INSERT INTO login (usuario,clave) VALUES ('$usuarioR','$claveR')");
+$insertar = mysqli_query($conexion,"INSERT INTO login (usuario,clave,rol) VALUES ('$usuarioR','$claveR','cliente')");
 
 if($insertar){
     echo'
@@ -34,6 +34,7 @@ if($insertar){
         </script>
     ';
 }
+
 
 mysqli_close($conexion);
 ?>

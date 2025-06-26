@@ -28,7 +28,7 @@
             </ul>
         </div>
     </header>
-    <form class="formulario_ing1" action="/php/registro.php" method="POST">
+    <form class="formulario_ing1" action="../PaginaWebPhP/php/login.php" method="POST" id="acc_form">
         <h2 class="info_h2">Ingresar</h2>
         <input type="text" class="formula" required placeholder="Usuario" name="usuario1">
         <input type="password" class="formula" required placeholder="Contraseña" name="pass1">
@@ -38,5 +38,11 @@
         © 2025 CO-MUSICA. Todos los derechos reservados.<br>
         Pagina hecha por A.Miranda - J.Pallo - S.Pullutagsi
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../PaginaWebPhP/JS/funcion.js"></script>
 </body>
 </html>
