@@ -22,7 +22,7 @@
             <a href="index.php"><img src="src/LOGO.png" alt="Logo" class="logo_img"></a>
             <ul style="display: flex; justify-content: flex-end; padding: 0px 1250px;">
                 <li><a href="Informacion.php">Informacion</a></li>
-                <li><a href="compra.php">Comprar</a></li>
+                <li><a href="compra.php"></a></li>
                 <li><a href="acceder.php">Entrar</a></li>
                 <li><a href="registrar.php"></a></li>
             </ul>

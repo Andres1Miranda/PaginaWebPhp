@@ -19,12 +19,11 @@
     </style>
     <header class="cabezera">
         <div class="cab_nav">
-            <a href="index.php"><img src="src/LOGO.png" alt="Logo" class="logo_img"></a>
+            <img src="src/LOGO.png" alt="Logo" class="logo_img">
             <ul style="display: flex; justify-content: flex-end; padding: 0px 1250px;">
                 <li><a href="Informacion.php">Informacion</a></li>
                 <li><a href="compra.php"></a></li>
-                <li><a href="acceder.php">Entrar</a></li>
-                <li><a href="registrar.php">Registrarse</a></li>
+                <li><a href="index.php">Salir</a></li>
             </ul>
         </div>
     </header>

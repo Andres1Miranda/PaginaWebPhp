@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,12 +24,12 @@
             <img src="src/LOGO.png" alt="Logo" class="logo_img">
             <ul style="display: flex; justify-content: flex-end; padding: 0px 1250px;">
                 <li><a href="Informacion.php">Informacion</a></li>
-                <li><a href="compra.php"></a></li>
-                <li><a href="acceder.php">Entrar</a></li>
-                <li><a href="registrar.php">Registrarse</a></li>
+                <li><a href="compra.php">Comprar</a></li>
+                <li><a href="index.php">Salir</a></li>
             </ul>
         </div>
     </header>
+    <h1 class="fondo_user">Bienvenido <?php echo $_SESSION['cliente'];?></h1>
     <div class="contenedor">
         <h2 class="titulo_cont">TICKETS DE TU CONCIERTO FAVORITO</h2>
         <p class="parr_cont">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates ipsam, quaerat quisquam illum numquam, nemo ducimus asperiores eligendi suscipit sapiente neque tempore odio quibusdam voluptas quam quidem eum officia.</p>
